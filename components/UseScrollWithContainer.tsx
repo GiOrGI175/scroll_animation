@@ -17,7 +17,7 @@ export default function UseScrollWithContainer() {
   return (
     <div
       ref={containerRef}
-      className='flex w-screen overflow-x-scroll bg-indigo-500/50s py-8'
+      className='flex items-center w-screen h-screen overflow-x-scroll bg-indigo-500/50 py-8'
     >
       <div className='w-screen shrink-0'></div>
 
