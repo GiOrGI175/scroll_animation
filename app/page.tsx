@@ -9,6 +9,9 @@ export default function Home() {
     <div className='bg-zinc-950 text-zinc-50 overflow-hidden'>
       <div className='relative z-10'>
         <UseScrollBasic />
+        <div className='h-screen flex justify-center items-center'>
+          <h1 className='text-5xl'>Scroll Down</h1>
+        </div>
         <div className='h-[150vh]' />
         <UseInViewSection />
         <div className='h-[150vh]' />
